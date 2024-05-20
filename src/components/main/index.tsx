@@ -1,9 +1,11 @@
 import { Description, Illustration, Logo, Title, Wrapper } from './styles'
 
-const Main = ({
-  title = 'React Avançado',
-  description = 'TypeScript, ReactJS, NextJS e Styled Components'
-}) => (
+type MainProps = {
+  title: string
+  description: string
+}
+
+const Main = ({ title, description }: MainProps) => (
   <Wrapper>
     <Logo
       src="/img/logo.svg"
