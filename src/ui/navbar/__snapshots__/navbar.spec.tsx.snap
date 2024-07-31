@@ -10,6 +10,16 @@ exports[`<Navbar /> should render Primary 1`] = `
   font-family: 'Shadows Into Light',sans-serif;
 }
 
+.c0 div:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+
+.c0 div:nth-child(2) ul {
+  display: flex;
+  gap: 1rem;
+}
+
 .c0 div:nth-child(2) li {
   list-style-type: none;
 }
@@ -28,6 +38,9 @@ exports[`<Navbar /> should render Primary 1`] = `
         <li>
           Receitas
         </li>
+        <li>
+          Contato
+        </li>
       </ul>
     </div>
   </nav>
@@ -42,6 +55,16 @@ exports[`<Navbar /> should render Skeleton 1`] = `
 
 .c0 div:nth-child(1) {
   font-family: 'Shadows Into Light',sans-serif;
+}
+
+.c0 div:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+
+.c0 div:nth-child(2) ul {
+  display: flex;
+  gap: 1rem;
 }
 
 .c0 div:nth-child(2) li {

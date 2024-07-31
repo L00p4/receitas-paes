@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "test": "jest --passWithNoTests --maxWorkers=50%",
+    "test:u": "npm test -- -u",
     "test:watch": "jest --watch --maxWorkers=25%",
     "test:ci": "jest --runInBand",
     "generate": "npx plop --plopfile generators/plopfile.js",

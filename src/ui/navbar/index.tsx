@@ -10,6 +10,7 @@ const Navbar = () => (
     <div>
       <ul>
         <li>Receitas</li>
+        <li>Contato</li>
       </ul>
     </div>
   </WrapperNavbar>

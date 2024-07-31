@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { WrapperNavbar } from './navbar.styles'
 
 const NavbarSkeleton = () => (

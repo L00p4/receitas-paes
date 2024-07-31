@@ -9,6 +9,14 @@ export const WrapperNavbar = styled.nav`
   }
 
   div:nth-child(2) {
+    display: flex;
+    align-items: center;
+
+    ul {
+      display: flex;
+      gap: 1rem;
+    }
+
     li {
       list-style-type: none;
     }
