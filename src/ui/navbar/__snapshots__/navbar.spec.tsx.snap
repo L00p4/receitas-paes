@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar /> should render Primary 1`] = `
+.c0 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.c0 div:nth-child(1) {
+  font-family: 'Shadows Into Light',sans-serif;
+}
+
+.c0 div:nth-child(2) li {
+  list-style-type: none;
+}
+
+<div>
+  <nav
+    class="c0"
+  >
+    <div>
+      <h1>
+        Meu pão na sua mão
+      </h1>
+    </div>
+    <div>
+      <ul>
+        <li>
+          Receitas
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+`;
+
+exports[`<Navbar /> should render Skeleton 1`] = `
+.c0 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.c0 div:nth-child(1) {
+  font-family: 'Shadows Into Light',sans-serif;
+}
+
+.c0 div:nth-child(2) li {
+  list-style-type: none;
+}
+
+<div>
+  <nav
+    class="c0"
+  >
+    <h1
+      class="skeleton"
+    >
+      Navbar
+    </h1>
+  </nav>
+</div>
+`;

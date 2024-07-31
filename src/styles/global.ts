@@ -1,6 +1,7 @@
 'use client'
 
 import { createGlobalStyle } from 'styled-components'
+import './fonts.css'
 
 const GlobalStyles = createGlobalStyle`
   * {
@@ -10,18 +11,14 @@ const GlobalStyles = createGlobalStyle`
   }
 
   html {
-    //font-size: 62.5%; // configura 1rem = 10px -> 10/16 = 0.625 então 1.4rem = 14px (não gosto e vou de 1 rem = 16px)
     font-size: 100%;
+    font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
-  html, body, #__next {
+  body, #__next {
     height: 100%;
+    font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
-
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-
 `
 
 export default GlobalStyles
